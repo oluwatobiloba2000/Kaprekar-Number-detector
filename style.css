@@ -37,7 +37,6 @@ nav>span:hover{
 }
 .description{
     width: 55%;
-    height: 113px;
     padding: 20px;
     background-color: white;
     margin-top: 20px;
@@ -70,10 +69,11 @@ nav>span:hover{
     outline: none;
 }
 .btn{
-    height: 34px;
+    height: 46px;
     width: 60px;
     cursor: pointer;
     border: none;
+    margin-left: 7px;
     color: white;
     background-color: green;
 }
@@ -128,4 +128,23 @@ nav>span:hover{
     margin-right: 7px;
     font-size: 20px;
     color: green;
+}
+.error__container{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.input__container{
+    position: sticky;
+    background-color: #d1d4cf;
+    z-index: 10000;
+    display: flex;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+@media all and (max-width: 550px){
+    .description{
+        width: 89%;
+    }
 }
