@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/b179ea9307.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>karprekar dectector</title>
+</head>
+<body>
+    <div class="body__container">
+        <nav>
+            <span>Kaprekar Number Detector</span>
+        </nav>
+
+        <div class="container">
+            <div class="description">
+                <p class="karprekar__text">What is a karprekar number?</p>
+                <p>A Kaprekar number is an integer whose square can be split into two parts that add up to the original number</p>
+            </div>
+
+            <div class="check__if__karprekar__container">
+                <input type="number" placeholder="Enter a number" name="check" id="check__if__karprekar__input">
+                <button class="btn"><i class="fas fa-long-arrow-alt-right"></i></button>
+
+                <div class="error__modal">
+                    <i class="far fa-times-circle" id="error__icon"></i>
+                  <span class="error__span">[NO]</span> <p>20 is not a karprekar number because 20<sup>2</sup> = 400 -> 200 + 200 = 40 [which is not equals to 20]</p>
+                </div>
+
+                <div class="check__modal">
+                    <i class="far fa-check-circle" id="check__icon"></i>
+                  <span class="check__span">[YES]</span> <p>45 is a karprekar number because 45<sup>2</sup> = 2025 -> 20 + 25 = 45 [which is equals to 45]</p>
+                </div>
+
+                <div class="error__modal">
+                    <i class="far fa-times-circle" id="error__icon"></i>
+                  <span class="error__span">[NO]</span> <p>20 is not a karprekar number because 20<sup>2</sup> = 400 -> 200 + 200 = 40 [which is not equals to 20]</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
