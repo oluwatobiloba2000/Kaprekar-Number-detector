@@ -3,7 +3,8 @@
 # Kaprekar Constant Steps Calulator
 
 ***TASK***
-`Write an algorithm to compute the Kaprekar’s constant on any four-digit number. The
+
+Write an algorithm to compute the Kaprekar’s constant on any four-digit number. The
 algorithm must do the following:
 
 ● Take only four-digit numbers whose digits are not identical.
@@ -15,7 +16,7 @@ Example: using 3524.
 8730 – 0378 = 8352
 8532 – 2358 = 6174
 7641 – 1467 = 6174
-This above example should return “3”, because it took 3 steps to get to the constant.`
+This above example should return “3”, because it took 3 steps to get to the constant.
 
 # how to clone this repo
  `git clone https://github.com/oluwatobiloba2000/Kaprekar-Number-detector.git`
