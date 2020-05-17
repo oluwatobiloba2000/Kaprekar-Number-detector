@@ -104,7 +104,7 @@ nav>span:hover{
 }
 
 .check__modal{
-    box-shadow: 0px 0px 3px 1px  green;
+    box-shadow: 0px 0px 3px 1px green;
     margin: auto;
     width: 80%;
     position: relative;
@@ -112,6 +112,7 @@ nav>span:hover{
     margin-bottom: 3px;
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -141,7 +142,10 @@ nav>span:hover{
     align-items: center;
     justify-content: center;
 }
-
+.solution__div__text{
+    padding: 13px;
+    color: #4c5052;
+}
 @media all and (max-width: 550px){
     .description{
         width: 89%;
